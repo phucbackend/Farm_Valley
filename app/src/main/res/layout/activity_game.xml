@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_background"
+    tools:context=".GameActivity">
+    <ImageButton
+        android:id="@+id/btnAvatar"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/default_ava" />
+
+    <ImageView
+        android:id="@+id/imgGold"
+        android:layout_width="30dp"
+        android:layout_height="37.5dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/gold"
+        android:layout_toRightOf="@+id/btnAvatar"/>
+
+    <TextView
+        android:id="@+id/tvGold"
+        android:layout_width="wrap_content"
+        android:layout_height="37.5dp"
+        android:layout_toRightOf="@id/imgGold"
+        android:layout_marginLeft="5dp"
+        android:textSize="12pt"
+        android:fontFamily="monospace"
+        android:textColor="@color/Black"
+        android:text="0" />
+
+    <ImageView
+        android:id="@+id/imgExp"
+        android:layout_width="30dp"
+        android:layout_height="37.5dp"
+        android:layout_below="@id/imgGold"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/btnAvatar"
+        app:srcCompat="@drawable/exp" />
+
+    <ProgressBar
+        android:id="@+id/pgbExp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="80dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/imgExp"
+        android:progressDrawable="@drawable/custom_pgb"
+        android:layout_below="@id/tvGold"/>
+    <Button
+        android:id="@+id/btnCuaHang"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="200dp"
+        android:background="#00000000"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvCuaHang"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/custom_tv_location"
+        android:gravity="center"
+        android:text="Cửa Hàng"
+        android:textSize="10pt"
+        android:textColor="@color/Black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnChuongTrai"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:background="#00000000"
+        android:text=""
+         />
+
+    <TextView
+        android:id="@+id/tvChuongTrai"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/custom_tv_location"
+        android:gravity="center"
+        android:text="Chuồng Trại"
+        android:textSize="10pt"
+        android:textColor="@color/Black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnTTGDich"
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="500dp"
+        android:background="#00000000"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/tvTTGDich"
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/custom_tv_location"
+        android:gravity="center"
+        android:text="Trung Tâm Giao Dịch"
+        android:textColor="@color/Black"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnDatTrong"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="650dp"
+        android:background="#00000000"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvDatTrong"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/custom_tv_location"
+        android:gravity="center"
+        android:text="Đất Trồng"
+        android:textSize="10pt"
+        android:textColor="@color/Black"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btnSetting"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/setting" />
+
+    <TextView
+        android:id="@+id/tvLevel"
+        android:layout_width="20dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imgExp"
+        android:layout_alignRight="@id/imgExp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/White"
+        android:text="1" />
+
+
+</RelativeLayout>

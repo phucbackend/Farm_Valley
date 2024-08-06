@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/feed_background"
+    android:orientation="vertical"
+    tools:context=".FeedActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnCloseFeed"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/back_icon" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="39dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="310dp"
+            android:background="@color/White"
+            app:srcCompat="@drawable/instruction" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:weightSum="5"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnChicken1"
+            android:layout_width="88dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/plus" />
+
+        <ImageButton
+            android:id="@+id/btnChicken2"
+            android:layout_width="88dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/plus" />
+
+        <ImageButton
+            android:id="@+id/btnChicken3"
+            android:layout_width="88dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/plus" />
+
+        <ImageButton
+            android:id="@+id/btnChicken4"
+            android:layout_width="88dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/plus" />
+
+        <ImageButton
+            android:id="@+id/btnChicken5"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/plus" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageButton
+            android:id="@+id/btnCow1"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/plus" />
+        <ImageButton
+            android:id="@+id/btnCow2"
+            android:layout_width="120dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/plus" />
+
+        <ImageButton
+            android:id="@+id/btnCow3"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/plus" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageButton
+            android:id="@+id/btnCow4"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_weight="1"
+            android:background="@drawable/plus" />
+
+        <ImageButton
+            android:id="@+id/btnCow5"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_weight="1"
+            android:background="@drawable/plus" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnPig1"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/plus" />
+
+        <ImageButton
+            android:id="@+id/btnPig2"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/plus" />
+
+        <ImageButton
+            android:id="@+id/btnPig3"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/plus" />
+
+        <ImageButton
+            android:id="@+id/btnPig4"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/plus" />
+
+        <ImageButton
+            android:id="@+id/btnPig5"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/plus" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnSheep1"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/plus" />
+
+        <ImageButton
+            android:id="@+id/btnSheep2"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/plus" />
+
+        <ImageButton
+            android:id="@+id/btnSheep3"
+            android:layout_width="110dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/plus" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageButton
+            android:id="@+id/btnSheep4"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_weight="1"
+            android:background="@drawable/plus" />
+
+        <ImageButton
+            android:id="@+id/btnSheep5"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"
+            android:layout_weight="1"
+            android:background="@drawable/plus" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_playerinfo_background"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/btnClose"
+        android:layout_width="37dp"
+        android:layout_height="42dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/back_icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="133dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnAvatar"
+                android:layout_width="96dp"
+                android:scaleType="centerCrop"
+                android:layout_height="97dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/default_ava" />
+
+            <TextView
+                android:id="@+id/tvPlayerLevel"
+                android:layout_width="93dp"
+                android:layout_height="29dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_textview_playerinfo"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="LV: 1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Tên người chơi:" />
+
+                <TextView
+                    android:id="@+id/tvPlayerName"
+                    android:layout_width="120dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/custom_textview_playerinfo"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="Name" />
+
+                <ImageButton
+                    android:id="@+id/btnChangePlayerName"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/pencil_editname" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Tên nông trại:" />
+
+                <TextView
+                    android:id="@+id/tvFarmName"
+                    android:layout_width="120dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/custom_textview_playerinfo"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="Name" />
+
+                <ImageButton
+                    android:id="@+id/btnChangeFarmName"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/pencil_editname" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Kho Chứa" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnVatNuoi"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vật Nuôi"
+            android:textStyle="normal"
+            android:textColor="@color/Lavender"
+            android:backgroundTint="@color/Goldenrod"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnSeed"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Hạt giống"
+            android:textColor="#F8CC01"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="@color/SaddleBrown"
+            android:textSize="15dp" />
+        <Button
+            android:id="@+id/btnPlant"
+            android:layout_gravity="center"
+            android:textColor="#300909"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cây trồng"
+            android:backgroundTint="#76FF03"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/lstData"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

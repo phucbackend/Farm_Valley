@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:gravity="center"
+    android:background="@drawable/custom_playerinfo_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Wheat"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="ĐỔI TÊN NGƯỜI CHƠI"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Nhập tên bạn muốn đặt:"
+        android:textSize="9pt" />
+
+    <EditText
+        android:id="@+id/edtPlayerName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Nhập tên vào đây"
+        android:paddingLeft="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_below="@id/edtPlayerName"
+            android:backgroundTint="@color/Goldenrod"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:text="OK"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_below="@id/edtPlayerName"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="@color/Goldenrod"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:text="Cancel"
+            android:textSize="7pt" />
+    </LinearLayout>
+
+</LinearLayout>

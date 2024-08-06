@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plant_background"
+    tools:context=".PlantActivity">
+
+    <ImageButton
+        android:id="@+id/btnClosePlant"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/close" />
+
+    <!-- Example: Enlarged ImageButton 1 -->
+
+    <!-- Example: Enlarged ImageButton 2 -->
+
+    <!-- Example: Enlarged ImageButton 3 -->
+    <ImageButton
+        android:id="@+id/btn1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="363dp"
+        android:background="@drawable/empty_dirt" />
+
+    <ImageButton
+        android:id="@+id/btn2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="291dp"
+        android:background="@drawable/empty_dirt" />
+
+    <ImageButton
+        android:id="@+id/btn3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="263dp"
+        android:layout_marginTop="371dp"
+        android:background="@drawable/empty_dirt" />
+
+    <ImageButton
+        android:id="@+id/btn4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="455dp"
+        android:background="@drawable/empty_dirt" />
+
+    <ImageButton
+        android:id="@+id/btn5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="264dp"
+        android:layout_marginTop="524dp"
+        android:background="@drawable/empty_dirt" />
+
+
+</RelativeLayout>

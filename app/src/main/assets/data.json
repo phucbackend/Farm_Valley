@@ -1,0 +1,111 @@
+[
+  {
+    "id" : "ga",
+    "name": "Gà",
+    "price": 70,
+    "category": "Animal",
+    "photo": "chicken",
+    "exp" : 40,
+    "sellPrice" : 80
+  },
+  {
+    "id" : "bo",
+    "name": "Bò",
+    "price": 200,
+    "category": "Animal",
+    "photo": "cow",
+    "exp" : 100,
+    "sellPrice" : 300
+  },
+  {
+    "id" : "heo",
+    "name": "Heo",
+    "price": 125,
+    "category": "Animal",
+    "photo": "pig",
+    "exp" : 75,
+    "sellPrice" : 160
+  },
+  {
+    "id" : "cuu",
+    "name": "Cừu",
+    "price": 160,
+    "category": "Animal",
+    "photo": "sheep",
+    "exp" : 90,
+    "sellPrice" : 200
+  },
+  {
+    "id" : "Slua",
+    "name": "Hạt Lúa",
+    "price": 10,
+    "category": "Seed",
+    "photo": "wheatseed",
+    "exp" : 15,
+    "sellPrice" : 6,
+    "img_early" : "early_wheat"
+  },
+  {
+    "id" : "Scarot",
+    "name": "Cà Rốt",
+    "price": 12,
+    "category": "Seed",
+    "photo": "carrotseed",
+    "exp" : 20,
+    "sellPrice" : 8 ,
+    "img_early" : "early_carrot"
+  },
+  {
+    "id" : "Sbap",
+    "name": "Hạt Bắp",
+    "price": 15,
+    "category": "Seed",
+    "photo": "cornseed",
+    "exp" : 25,
+    "sellPrice" : 10 ,
+    "img_early" : "early_corn"
+  },
+  {
+    "id" : "Smia",
+    "name": "Mía",
+    "price": 5,
+    "category": "Seed",
+    "photo": "sugarcaneseed",
+    "exp" : 10,
+    "sellPrice" : 3 ,
+    "img_early" : "early_sugarcane"
+  } ,
+  {
+    "id" : "lua",
+    "name": "Wheat",
+    "price": 10,
+    "category": "Plant",
+    "photo": "wheat_product",
+    "exp" : 15,
+    "sellPrice" : 15
+  },
+  {
+    "id" : "carot",
+    "name": "Carrot",
+    "category": "Plant",
+    "photo": "carrot_product",
+    "exp" : 20,
+    "sellPrice" : 25
+  },
+  {
+    "id" : "bap",
+    "name": "Corn",
+    "category": "Plant",
+    "photo": "corn_product",
+    "exp" : 25,
+    "sellPrice" : 30
+  },
+  {
+    "id" : "mia",
+    "name": "SugarCane",
+    "category": "Plant",
+    "photo": "sugarcane_product",
+    "exp" : 10,
+    "sellPrice" : 10
+  }
+]

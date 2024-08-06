@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:gravity="center"
+    android:background="@drawable/custom_playerinfo_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Wheat"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Xác nhận mua"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtBuyItem"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="Sản phẩm : " />
+
+            <TextView
+                android:id="@+id/txtItem"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:inputType="text"
+                android:textSize="14dp"
+                android:text="Gà" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:text="Số Lượng: " />
+
+            <ImageButton
+                android:id="@+id/btnMinus"
+                android:layout_width="15dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/minus" />
+
+
+            <TextView
+                android:id="@+id/txtEditNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="1"
+                />
+            <ImageButton
+                android:id="@+id/btnPlus"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/plus" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:text="Giá Tiền : " />
+
+            <TextView
+                android:id="@+id/txtPrice"
+                android:layout_width="55dp"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginLeft="55dp"
+                android:gravity="center_vertical"
+                android:text="Tổng Tiền : " />
+
+            <TextView
+                android:id="@+id/txtTotalPrice"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="78dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/Goldenrod"
+            android:text="OK"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/Goldenrod"
+            android:padding="16dp"
+            android:text="Cancel"
+            android:textSize="7pt" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:id="@+id/layout_custom_toast_fail"
+    android:gravity="center"
+    android:background="@drawable/custom_toast_error"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/error_toast"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_message_fail"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="18dp"
+        android:text="This is a custom toast"></TextView>
+
+
+</LinearLayout>

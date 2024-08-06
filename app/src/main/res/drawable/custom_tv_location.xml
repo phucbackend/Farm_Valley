@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFF00" /> <!-- Màu nền màu vàng -->
+    <corners android:radius="8dp" /> <!-- Đường viền bo tròn -->
+    <stroke
+        android:color="#000000"
+        android:width="3dp" /> <!-- Viền đen kích thước 2dp -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" /> <!-- Khoảng cách giữa nền và văn bản -->
+</shape>
